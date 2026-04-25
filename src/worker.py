@@ -142,7 +142,7 @@ def main():
         on_message_callback=process_intervals
     )
 
-    print("Worker started")
+    print("\n\nWorker started successfully!\n\n")
     channel.start_consuming()
 
 if __name__ == "__main__":
