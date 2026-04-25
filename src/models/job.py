@@ -1,7 +1,7 @@
 import sqlalchemy as db
 from sqlalchemy.ext.declarative import declarative_base
 
-from src.models.base import Base
+from models.base import Base
 
 class Job(Base):
     __tablename__ = "job"
